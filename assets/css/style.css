@@ -1,0 +1,96 @@
+
+/*Titulo + imagen principal*/
+body {
+	font-family: 'Raleway', sans-serif;
+	/*Aunque descargue la font a mi computador no pude hacerla funcionar. Asi que busque en internet y use el link externo que ofrece https://fonts.google.com/*/
+	background-color: #000000;
+}
+.titulo{
+	margin: 0;
+	border: 0;
+    font-size: 90px;
+    color: #FFFFFF;
+    text-align: center;
+}
+.imgportada img{
+    top: 73px;
+    width: 100%;
+}
+
+/*Parrafo informativo + imagen*/
+
+.parrafo1{
+	margin: 0;
+	padding: 45px 0;
+}
+
+.parrafo2{
+	width: 80%;
+	margin: 0 auto;
+}
+
+.parrafotexto{
+	width: 60%;
+	display: inline-block;
+	padding-right: 20px;
+	text-align: left;
+	vertical-align: middle;
+    color: #FFFFFF;
+}
+
+.parrafoi{
+	display: inline-block;
+	width: 30%;	
+	vertical-align: middle;
+}
+
+.parrafoi img{
+	width: 100%;
+}
+/*Iconos*/
+.seccionI{
+	background-color: #1E1A13;	
+	text-align: center;
+	padding: 10px;
+	color:#FFFFFF;
+}
+
+.caracteristicas{
+	font-size: 70px;
+	margin-bottom: 10px;
+	color: #FFFFFF;
+	margin-bottom: 1em;
+}
+
+.icons{
+	display: inline-block;
+	width: 30%;
+}
+.icons p{
+	font-size: 40px;
+	color: #FFFFFF;
+}
+
+/*Galeria*/
+.secgaleria{
+	display: flex;
+	justify-content: space-evenly;
+	padding: 3%;
+}
+
+.galeria img{
+	width: 400px;
+	height: 300px;
+}
+/*Footer*/
+footer{
+	background-color: #1E1A13;
+	text-align: center;
+	padding: 10px;
+	color: #ffffff;
+}
+
+footer a{
+	text-decoration: none;
+	color: white;
+}
